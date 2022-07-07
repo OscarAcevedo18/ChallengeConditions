@@ -1,0 +1,17 @@
+html, body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/581/4/930/basketball-brooklyn-nets-logo-nba-hd-wallpaper-preview.jpg);
+}
+
+.image {
+    width: 30%;
+    margin: 0.5rem;
+    border-radius: 5rem;
+}
