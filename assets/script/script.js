@@ -6,3 +6,10 @@ document.querySelector('#button').onclick = function border () {
         button.style.border = 'none';
         }
     }
+    // document.getElementById("btn-one").addEventListener("click", function(){
+    //     var quantity = document.querySelector('#input-one').value; 
+    //     var quantity = document.querySelector('#input-two').value; 
+    //     var quantity = document.querySelector('#input-three').value;           
+    //     document.querySelector('.tot').innerHTML=quantity;
+    //     document.querySelector('.cant').innerHTML=quantity;
+    //     });

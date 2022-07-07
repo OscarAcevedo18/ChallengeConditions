@@ -7,11 +7,61 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid chocolate;
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/581/4/930/basketball-brooklyn-nets-logo-nba-hd-wallpaper-preview.jpg);
 }
 
 .image {
-    width: 30%;
+    width: 18%;
     margin: 0.5rem;
     border-radius: 5rem;
+}
+
+/* stickers */
+
+.list-stick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid chocolate;
+    background-image: url(https://wallpapers-hub.art/wallpaper-images/128139.jpg);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-style: double;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-style: groove;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+}
+
+.btn {
+    margin: 0.8rem;
+    width: 5rem;
+    border-radius: 10rem;
+    background-color: #00ff1a;
 }
