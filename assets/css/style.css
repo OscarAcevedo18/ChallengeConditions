@@ -91,7 +91,7 @@ html, body {
 }
 
 #btn-one {
-    margin: 0.8rem;
+    margin-bottom: 0.8rem;
     width: 5rem;
     border-radius: 10rem;
     background-color: #00ff1a;
@@ -126,7 +126,6 @@ html, body {
     justify-content: center;
     align-items: center;
     border-radius: 5rem;
-    margin: 0.5rem;
 }
 
 .numbers {
