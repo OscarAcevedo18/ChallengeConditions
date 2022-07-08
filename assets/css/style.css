@@ -7,11 +7,138 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid chocolate;
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/581/4/930/basketball-brooklyn-nets-logo-nba-hd-wallpaper-preview.jpg);
 }
 
-.image {
-    width: 30%;
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17%;
     margin: 0.5rem;
+    border: none;
     border-radius: 5rem;
+}
+
+.image {
+    width: 103%;
+    border-radius: 5rem;
+    border: 2px black solid;
+}
+
+/*******************
+ Desafio Dos ************/
+
+.list-stick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid chocolate;
+    font-family: 'Langar', cursive;
+    background-image: url(https://wallpapers-hub.art/wallpaper-images/128139.jpg);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-style: double;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-style: groove;
+}
+
+#input-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-left: 4.5rem;
+    width: 5rem;
+}
+
+#input-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-left: 4.5rem;
+    width: 5rem;
+}
+
+#input-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-left: 4.5rem;
+    width: 5rem;
+}
+
+#btn-one {
+    margin-bottom: 0.8rem;
+    width: 5rem;
+    border-radius: 10rem;
+    background-color: #00ff1a;
+}
+
+#msj {
+    color: white;
+}
+/*******************
+ Desafio tres ************/
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid chocolate;
+    font-family: 'Oldenburg', cursive;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReOCrXe1gCdDBWjRhvp8_jRe-INQedAaIqEg&usqp=CAU);
+}
+
+.pass { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-style: double;
+}
+
+.sele {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+}
+
+.numbers {
+    margin: 0.2rem;
+}
+
+#btn-two {
+    margin: 0.8rem;
+    width: 5rem;
+    border-radius: 10rem;
+    background-color: #ff9100;
+}
+
+#psw {
+    color: white;
 }
