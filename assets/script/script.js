@@ -6,13 +6,6 @@ if (button.style.borderStyle != "solid") {
     button.style.removeProperty("border");
 }
 });
+/***************
+ Desafio dos ***********/
 
-
-
-    // document.getElementById("btn-one").addEventListener("click", function(){
-    //     var quantity = document.querySelector('#input-one').value; 
-    //     var quantity = document.querySelector('#input-two').value; 
-    //     var quantity = document.querySelector('#input-three').value;           
-    //     document.querySelector('.tot').innerHTML=quantity;
-    //     document.querySelector('.cant').innerHTML=quantity;
-    //     });
