@@ -1,38 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Langar&family=Nerko+One&family=Odor+Mean+Chey&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
     <title>ChallengeConditions</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-    <button class="button" id="button">
-        <img class="image" src="https://cdn.wallpapersafari.com/63/33/kOhaVj.jpg">
-    </button>
-</div>
+      <button id="button">
+        <img
+          class="image"
+          src="https://cdn.wallpapersafari.com/63/33/kOhaVj.jpg" alt="Kyrie Irving"
+        />
+      </button>
+    </div>
     <!-- Seccion stickers -->
     <div class="list-stick">
-        <h2>Puedes Llevar Hasta 10 Stickers</h2>
-        <div class="photos">
-            <div class="stick-one">
-                <img class="picture" src="https://images.fineartamerica.com/images/artworkimages/medium/3/kyrie-irving-serhii-tymoshenko-transparent.png" alt="">
-                <input class="bar" id="input-one" type="text" placeholder="Cantidad" name="cant">
-            </div>
-            <div class="stick-two">
-                <img class="picture" src="https://www.teleadhesivo.com/es/img/asy437-png/folder/products-detalle-png/vinilos-decorativos-kobe-bryant-mamba.png" alt="">
-                <input class="bar" id="input-two" type="text" placeholder="Cantidad" name="cant">
-            </div>
-            <div class="stick-three">
-                <img class="picture" src="https://www.muraldecal.com/en/img/jordan02-png/folder/products-detalle-png/stickers-michael-jordan-king.png" alt="">
-                <input class="bar" id="input-three" type="text" placeholder="Cantidad" name="cant">
-            </div>
+      <h2 class="title">Puedes Llevar Hasta 10 Stickers</h2>
+      <div class="photos">
+        <div class="stick-one">
+          <img
+            class="picture"
+            src="https://images.fineartamerica.com/images/artworkimages/medium/3/kyrie-irving-serhii-tymoshenko-transparent.png"
+            alt="Kyrie Irving"
+          />
+          <input
+            id="input-one"
+            type="text"
+            placeholder="Cantidad"
+            name="cant"
+          />
         </div>
-        <button class="btn" id="btn-one">Verificar</button>
+        <div class="stick-two">
+          <img
+            class="picture"
+            src="https://www.teleadhesivo.com/es/img/asy437-png/folder/products-detalle-png/vinilos-decorativos-kobe-bryant-mamba.png"
+            alt="Kobe Bryant"
+          />
+          <input
+            id="input-two"
+            type="text"
+            placeholder="Cantidad"
+            name="cant"
+          />
+        </div>
+        <div class="stick-three">
+          <img
+            class="picture"
+            src="https://www.muraldecal.com/en/img/jordan02-png/folder/products-detalle-png/stickers-michael-jordan-king.png"
+            alt="Michael Jordan"
+          />
+          <input
+            id="input-three"
+            type="text"
+            placeholder="Cantidad"
+            name="cant"
+          />
+        </div>
+      </div>
+      <p id="msj"></p>
+      <button id="btn-one">Verificar</button>
+    </div>
+    <!-- Desafio tres -->
+    <div class="container-two">
+      <div>
+        <h2 class="pass">Ingresa el Password</h2>
+      </div>
+      <div class="sele">
+        <div class="numbers">
+          <select id="num-one" type="text" placeholder="Cantidad">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div class="numbers">
+          <select id="num-two" type="text" placeholder="Cantidad">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div class="numbers">
+          <select id="num-three" type="text" placeholder="Cantidad">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+      </div>
+      <p id="psw"></p>
+      <button id="btn-two">Ingresar</button>
     </div>
 
-    <script src="assets/script/script.js"></script> 
-</body>
+    <script src="assets/script/script.js"></script>
+  </body>
 </html>
